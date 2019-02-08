@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonColorChange">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueBtn"
+        android:text="@string/blue"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="75dp"
+        android:onClick="onClickBtnAction"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/redBtn"
+        android:text="@string/red"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:background="@color/red"
+        android:padding="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/blueBtn"
+        android:onClick="onClickBtnAction"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/greenBtn"
+        android:text="@string/green"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:background="@color/green"
+        android:padding="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/redBtn"
+        android:onClick="onClickBtnAction"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yellowBtn"
+        android:text="@string/yellow"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:background="@color/yellow"
+        android:padding="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/greenBtn"
+        android:onClick="onClickBtnAction"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayText"
+        android:text="@string/classIdSemester"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="75dp"
+        android:layout_below="@id/yellowBtn"
+        />
+
+</RelativeLayout>
